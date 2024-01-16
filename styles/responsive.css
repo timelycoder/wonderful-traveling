@@ -1,12 +1,11 @@
+/* header responsive */
 @media screen and (max-width:600px) {
   .container {
     flex-direction: column;
+    padding-left: 150px;
   }
 
-  .nav-logo .explore {
-    position: relative;
-    left: 40px;
-  }
+
 
 
 
@@ -14,3 +13,31 @@
     flex-direction: column;
   }
 }
+
+/* Popular-tour responsive */
+@media screen and (max-width:600px) {
+  .popular-tour {
+    flex-direction: column;
+    padding-left: 150px;
+  }
+
+  .popular-tour * {
+    margin-bottom: 2rem
+  }
+}
+
+/* Popular-tour responsive */
+
+/* perfect-place responsive */
+@media screen and (max-width:600px) {
+  .perfect-place {
+    flex-direction: column;
+    padding-left: 150px;
+  }
+
+  .perfect-place-text {
+    margin-bottom: 2rem
+  }
+}
+
+/* perfect-place responsive */

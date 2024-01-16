@@ -18,6 +18,7 @@ body {
 
 header {
   max-width: 144rem;
+  margin-bottom: 4rem;
 }
 
 .container {
@@ -29,6 +30,7 @@ header {
 
   border: 3px solid red;
   margin: 0 auto;
+
 }
 
 .nav-logo {
@@ -84,6 +86,7 @@ main {
 
   border: 3px solid red;
   margin: 0 auto;
+  margin-bottom: 4rem;
 }
 
 .tour-text-container {
@@ -113,7 +116,8 @@ li {
   padding-left: 3rem;
 }
 
-.btn-primery {
+.btn-primery,
+.see-more {
   border-radius: 8px;
   background: #FF5400;
 
@@ -124,23 +128,140 @@ li {
 }
 
 .tour-image-container {
+
   width: 50%;
+  object-fit: cover;
 
 }
 
 .tour-image-container img {
   width: 100%;
+  height: 430px;
+
+
+}
+
+/* popular tour section  */
+
+/* perfect-place start */
+.perfect-place {
+  max-width: 117rem;
+  justify-content: center;
+  display: flex;
+  min-height: 10rem;
+
+  border: 3px solid red;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.perfect-place .perfect-place-text {
+  width: 50%;
+  border: 3px solid blue;
+  padding-top: 10px;
+}
+
+.perfect-place .perfect-place-text * {
+  margin-bottom: 4rem;
+}
+
+.perfect-place .perfect-place-text .perfect-h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #131318;
+
+}
+
+.perfect-place .perfect-place-text .perfect-h6 {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 1.5rem;
+  font-weight: 400;
+
+}
+
+.perfect-place .perfect-place-text>ul {
+  padding-left: 3rem;
+}
+
+.perfect-palce-video {
+  width: 50%;
+  border: 3px solid blue;
+}
+
+.perfect-palce-video img {
+  width: 100%;
+  height: 400px;
+
 }
 
 
 
+/* perfect-place end*/
 
+.newsletter {
+  max-width: 117rem;
+  justify-content: center;
+  display: flex;
+  min-height: 10rem;
 
+  border: 3px solid red;
+  margin: 0 auto;
+  margin-bottom: 4rem;
 
-/* popular tour section  */
+}
 
+.newsletter-text {
+  width: 50%;
+  padding-left: 4rem;
+  padding-top: 20px;
+}
 
+.newsletter-text * {
+  margin-bottom: 2rem;
+}
 
+.newsletter-text h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+
+}
+
+.newsletter-text p {
+  color: rgba(19, 19, 24, 0.70);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.newsletter-text input {
+  padding: 10px 140px 10px 10px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  border: none;
+}
+
+.btn-subscribe {
+  border-radius: 8px;
+  background: #FF5400;
+
+  font-size: 1.6rem;
+  padding: 10px 125px;
+  border: none;
+  color: #fff;
+
+}
+
+.newsletter-image {
+  width: 50%;
+  border: 3px solid blue;
+}
+
+.newsletter-image img {
+  width: 100%;
+  height: 380px;
+
+}
 
 /* footer */
 footer {
