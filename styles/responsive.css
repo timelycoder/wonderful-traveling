@@ -41,3 +41,14 @@
 }
 
 /* perfect-place responsive */
+/* newsletter  */
+@media screen and (max-width:600px) {
+  .newsletter {
+    flex-direction: column;
+    padding-left: 150px;
+  }
+
+  .newsletter-text {
+    margin-bottom: 2rem
+  }
+}
