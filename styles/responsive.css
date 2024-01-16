@@ -1,0 +1,16 @@
+@media screen and (max-width:600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .nav-logo .explore {
+    position: relative;
+    left: 40px;
+  }
+
+
+
+  .nav-items {
+    flex-direction: column;
+  }
+}
