@@ -43,7 +43,7 @@ header {
 
 }
 
-.nav-logo .explore {
+.nav-logo {
   font-weight: bolder;
 }
 
@@ -78,7 +78,7 @@ main {
 /* explore section  */
 
 .explore {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(../Images/background.png);
   border-radius: 16px;
   max-width: 117rem;
   height: 600px;
